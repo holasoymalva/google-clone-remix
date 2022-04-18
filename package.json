@@ -1,0 +1,22 @@
+{
+  "name": "google-clone-remix",
+  "version": "1.0.0",
+  "description": "Workshop Project to show how to work with Remix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malvabombom/google-clone-remix.git"
+  },
+  "keywords": [
+    "Remix"
+  ],
+  "author": "malvabombom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malvabombom/google-clone-remix/issues"
+  },
+  "homepage": "https://github.com/malvabombom/google-clone-remix#readme"
+}
