@@ -14,10 +14,14 @@ import {
 } from "@remix-run/react";
 
 import tailwindStylesheetUrl from "./styles/tailwind.css";
+import stylesheet from "./styles/styles.css";
 import { getUser } from "./session.server";
 
 export const links: LinksFunction = () => {
-  return [{ rel: "stylesheet", href: tailwindStylesheetUrl }];
+  return [
+    { rel: "stylesheet", href: tailwindStylesheetUrl },
+    { rel: "stylesheet", href: stylesheet },
+  ];
 };
 
 export const meta: MetaFunction = () => ({
@@ -42,6 +46,8 @@ export default function App() {
       <head>
         <Meta />
         <Links />
+        <title>hoddy</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
       </head>
       <body className="h-full">
         <Outlet />
